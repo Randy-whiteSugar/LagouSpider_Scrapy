@@ -1,4 +1,4 @@
-import os
+#import os
 from scrapy.cmdline import execute
 
 # os.system("python D:\Pycharm\projectspace\proxy_pool\proxy_pool\cli\proxyPool.py schedule")
