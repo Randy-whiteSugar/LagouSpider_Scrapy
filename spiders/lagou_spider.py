@@ -13,7 +13,7 @@ class LagouSpiderSpider(scrapy.Spider):
     name = 'lagou_spider'
     allowed_domains = ['lagou.com']
     fake_url = 'http://quotes.toscrape.com/'
-    start_url_tags = ['人工智能'] #['数据分析', '数据挖掘', '算法', '机器学习', '深度学习', '人工智能']
+    start_url_tags = ['大数据'] #['数据分析', '数据挖掘', '算法', '机器学习', '深度学习', '人工智能']
     url_start = 'https://m.lagou.com/search.html'
     json_ajax_url = 'https://www.lagou.com/jobs/positionAjax.json?needAddtionalResult=false'
     headers = {
